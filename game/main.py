@@ -3,7 +3,7 @@ from PyQt5.QtGui import QPainter, QColor, QFont, QPixmap
 from PyQt5.QtCore import QRect, QTimer
 import sys
 from random import randint
-from game import Ui_Form
+from ui.game import Ui_Form
 
 
 class Game(QMainWindow, Ui_Form):
