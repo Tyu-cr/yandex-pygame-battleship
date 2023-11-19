@@ -24,10 +24,10 @@ class Game(QMainWindow, Ui_Form):
         self.end_game = 0
 
         # Загрузка изображений
-        self.normal = QPixmap("img//1.png")
-        self.partly = QPixmap("img//2.png")
-        self.destroyed = QPixmap("img//3.png")
-        self.bomb = QPixmap("img//4.png")
+        self.normal = QPixmap("img/1.png")
+        self.partly = QPixmap("img/2.png")
+        self.destroyed = QPixmap("img/3.png")
+        self.bomb = QPixmap("img/4.png")
 
         # Таймер для обновления рисунков
         timer = QTimer(self)
